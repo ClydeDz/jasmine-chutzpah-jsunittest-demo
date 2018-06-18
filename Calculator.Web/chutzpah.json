@@ -1,0 +1,18 @@
+﻿{
+  "Framework": "jasmine",
+  "FrameworkVersion": "2.0",
+  "RootReferencePathMode": "SettingsFileDirectory",
+  "EnableTestFileBatching": true,
+  "TestFileTimeout": 10000,
+  "References": [
+    {
+      "Path": "./Scripts/appHelper.js"
+    }
+  ],
+  "Tests": [
+    {
+      "Path": "./Scripts/tests/app/",
+      "Includes": [ "*test.js" ]
+    }
+  ]
+}
