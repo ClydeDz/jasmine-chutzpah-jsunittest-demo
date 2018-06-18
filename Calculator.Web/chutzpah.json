@@ -6,12 +6,12 @@
   "TestFileTimeout": 10000,
   "References": [
     {
-      "Path": "./Scripts/appHelper.js"
+      "Path": "Scripts/appHelper.js"
     }
   ],
   "Tests": [
     {
-      "Path": "./Scripts/tests/app/",
+      "Path": "Scripts/tests/app/",
       "Includes": [ "*test.js" ]
     }
   ]
